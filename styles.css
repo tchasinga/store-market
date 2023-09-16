@@ -13,7 +13,7 @@
 
 .myImg img{
     width: 100%;
-    object-fit: contain;
+    object-fit: fill;
 }
 
 .myImg h1 p {
@@ -22,7 +22,7 @@
 
 
 
-@media only screen and (max-width : 480px) {
+@media only screen and (max-width : 980px) {
     .dataget{
         margin: 0 auto;
         width: 90%;
