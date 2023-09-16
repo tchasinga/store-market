@@ -1,0 +1,26 @@
+.dataget{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    padding: 0px 10px;
+}
+
+.myImg img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.myImg h1 p {
+ font-size: 15px;
+}
+
+
+
+@media only screen and (max-width : 480px) {
+    .dataget{
+        margin: 0 auto;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
